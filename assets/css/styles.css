@@ -79,6 +79,17 @@
  * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap");
 
+@font-face {
+    font-family: tawbah100;
+    src: url(../fonts/p203.ttf);
+}
+
+@font-face {
+    font-family: aliimran123;
+    src: url(../fonts/p66.ttf);
+}
+
+
 :root {
     --font-1    : "Inter", sans-serif;
     --font-2    : "Castoro", serif;
@@ -3835,7 +3846,7 @@ body.search-is-visible .s-header__search-inner {
  *
  * ------------------------------------------------------------------- */
 .hero {
-    --entry-title-size : 7.6rem;
+    --entry-title-size : 2.6rem;
     --text-multiplier  : 1;
     background-color   : var(--color-body);
     width              : 100%;
@@ -4017,8 +4028,9 @@ body.search-is-visible .s-header__search-inner {
 }
 
 .hero__entry-title {
+    font-family: aliimran123;
     font-size      : calc(var(--entry-title-size) * var(--text-multiplier));
-    line-height    : 1.158;
+    line-height    : 1.6;
     letter-spacing : -0.015em;
     margin-top     : 0;
     margin-bottom  : var(--vspace-1_5);
